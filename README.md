@@ -1,4 +1,4 @@
-## 🔥 Repo Stats (Auto Update)
+## Repo Stats (Auto Update)
 ![Views](https://komarev.com/ghpvc/?username=illhammf&repo=crkosongdua-2026&color=blue&style=for-the-badge)
 
 ---
@@ -27,3 +27,10 @@ code .
 setelah masuk VS Code, kita masukan Template yang sudah di download di https://www.tooplate.com/ 
 lalu masukkan isi dari template yang sudah kalian pilih
 
+---
+
+### INI TIDAK DILANJUT!!!
+Silahkan masuk ke Repository https://github.com/illhammf/crkosongdua-2026
+untuk cek update tugas terbaru
+
+---

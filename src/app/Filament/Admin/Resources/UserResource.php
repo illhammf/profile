@@ -23,17 +23,17 @@ class UserResource extends Resource
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static ?int $navigationSort = -2;
-
+    // Untuk menampilkan badge jumlah data pada menu navigation
     public static function getNavigationBadge(): ?string
     {
         return static::getModel()::count();
     }
-
+    // Untuk mendefinisikan atribut yang bisa dicari secara global
     public static function getGloballySearchableAttributes(): array
     {
         return ['name', 'email', 'roles.name'];
     }
-
+    // Untuk mendefinisikan detail yang ditampilkan pada hasil pencarian global
     public static function getGlobalSearchResultDetails(Model $record): array
     {
         return [
@@ -94,7 +94,7 @@ class UserResource extends Resource
 
             ]);
     }
-
+    // Untuk mendefinisikan tabel resource
     public static function table(Table $table): Table
     {
         return $table
@@ -140,14 +140,14 @@ class UserResource extends Resource
                 Tables\Actions\CreateAction::make(),
             ]);
     }
-
+    // Untuk menampilkan relasi, jika ada
     public static function getRelations(): array
     {
         return [
             //
         ];
     }
-
+    // Untuk mendefinisikan halaman resource
     public static function getPages(): array
     {
         return [
